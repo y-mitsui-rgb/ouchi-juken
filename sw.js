@@ -1,7 +1,7 @@
 /* おうち受験ラボ — オフラインで うごく ための サービスワーカー
  * 方針: 自分の ファイルは キャッシュから、なければ ネットから。
  *       ネットが なくても index.html を かえす（アプリは 端末内で 問題を つくるので 通信は 不要）。 */
-const CACHE = 'ouchi-juken-v1';
+const CACHE = 'ouchi-juken-v5';
 const ASSETS = ['./', './index.html', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png', './icons/icon-maskable-512.png',
   './icons/apple-touch-icon-180.png'];
